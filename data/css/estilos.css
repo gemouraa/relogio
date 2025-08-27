@@ -1,0 +1,37 @@
+@font-face {
+    font-family: relogio;
+    src: url('/img/digital-7.ttf');
+}
+body{
+    background: url(/img/luca-bravo-zAjdgNXsMeg-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+ background: rgba(255, 255, 255, 0.240);
+ width: 500px;
+ padding: 25px;
+ border-radius: 25px;
+ backdrop-filter: blur(10px);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.central div{
+    background: black;
+    color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.central span{
+    font-family: relogio;
+    font-size: 110px;
+}
